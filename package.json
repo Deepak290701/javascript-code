@@ -1,0 +1,17 @@
+{
+  "name": "js_program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "nodemon program"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.5.2",
+    "nodemon": "^2.0.4"
+  }
+}
