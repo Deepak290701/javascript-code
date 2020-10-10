@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602334381621" clover="3.2.0">
-  <project timestamp="1602334381621" name="All files">
+<coverage generated="1602334852347" clover="3.2.0">
+  <project timestamp="1602334852347" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="22" coveredelements="22" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="program.js" path="C:\Users\Deepak\Desktop\JS_program\program.js">
       <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="15" count="3" type="stmt"/>
-      <line num="16" count="15" type="stmt"/>
-      <line num="18" count="15" type="stmt"/>
-      <line num="20" count="15" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="14" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="16" count="17" type="stmt"/>
+      <line num="18" count="17" type="stmt"/>
+      <line num="20" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="16" type="stmt"/>
       <line num="24" count="1" type="stmt"/>
-      <line num="28" count="3" type="stmt"/>
-      <line num="29" count="15" type="cond" truecount="2" falsecount="0"/>
-      <line num="30" count="7" type="stmt"/>
-      <line num="31" count="7" type="stmt"/>
-      <line num="32" count="7" type="stmt"/>
-      <line num="37" count="3" type="stmt"/>
+      <line num="28" count="4" type="stmt"/>
+      <line num="29" count="20" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="12" type="stmt"/>
+      <line num="31" count="12" type="stmt"/>
+      <line num="32" count="12" type="stmt"/>
+      <line num="37" count="4" type="stmt"/>
       <line num="40" count="1" type="stmt"/>
       <line num="51" count="1" type="stmt"/>
       <line num="62" count="1" type="stmt"/>

@@ -28,6 +28,13 @@ let test2 = {
 let ans2 = {'Mon': 0, 'Tue': 0, 'Wed': 0, 'Thu': 0, 'Fri': 0, 'Sat': 0, 'Sun': 0 };
 
 
+
+test('Getting Correct Answer For the test1' , () => {
+    expect(solution(test1)).toEqual(ans1)
+    expect(solution(test2)).toEqual(ans2)
+});
+
+
 let test3 = {
     '2020-01-05' : 2,
     '2020-01-06' : 2
@@ -35,11 +42,19 @@ let test3 = {
 
 let ans3 = {'Mon': 2, 'Tue': 2, 'Wed': 2, 'Thu': 2, 'Fri': 2, 'Sat': 2, 'Sun': 2 };
 
-
-test('Getting Correct Answer For the test1' , () => {
-    expect(solution(test1)).toEqual(ans1)
-    expect(solution(test2)).toEqual(ans2)
-});
 test('Getting Correct Answer For the test2' , () => {
     expect(solution(test3)).toEqual(ans3)
 });
+
+
+let test4 = {
+    '2003-02-02' : 2,
+    '2003-02-03' : 2
+};
+
+let ans4 = {'Mon': 2, 'Tue': 2, 'Wed': 2, 'Thu': 2, 'Fri': 2, 'Sat': 2, 'Sun': 2 };
+
+test('Getting Correct Answer For the test3' , () => {
+    expect(solution(test4)).toEqual(ans4)
+});
+
