@@ -48,7 +48,7 @@ let dict = {
     '2020-01-08' : -2,
 };
 
-let dict2 = {
+let input = {
     '2020-01-01' : 6,
     '2020-01-04' : 12,
     '2020-01-05' : 14,
@@ -57,6 +57,6 @@ let dict2 = {
 };
 
 // console.log(solution(dict));
-// console.log(solution(dict2));
+// console.log(solution(input));
 
 module.exports = solution;

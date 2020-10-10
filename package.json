@@ -5,6 +5,7 @@
   "main": "program.js",
   "scripts": {
     "test": "jest --coverage",
+    "start": "node program",
     "dev": "nodemon program"
   },
   "keywords": [],
