@@ -54,7 +54,17 @@ let test4 = {
 
 let ans4 = {'Mon': 2, 'Tue': 2, 'Wed': 2, 'Thu': 2, 'Fri': 2, 'Sat': 2, 'Sun': 2 };
 
+
+let test5 = {
+    '2003-02-02' : 200000,
+    '2003-02-03' : 200000
+};
+
+let ans5 = {'Mon': 200000, 'Tue': 200000, 'Wed': 200000, 'Thu': 200000, 'Fri': 200000, 'Sat': 200000, 'Sun': 200000 };
+
+
 test('Getting Correct Answer For the test3' , () => {
     expect(solution(test4)).toEqual(ans4)
+    expect(solution(test5)).toEqual(ans5)
 });
 
